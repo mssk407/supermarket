@@ -6,5 +6,3 @@ class ProductController{
 late Product product;
 late ProductsView productsView ;
 
-
-}
