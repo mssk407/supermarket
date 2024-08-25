@@ -1,4 +1,12 @@
+import '../product.dart';
+
 class DataBase{
+  List <Map>products=[
+    {"name":"Nokia","price":200,"qnty":100},
+    {"name":"Samsung s23","price":1500,"qnty":50},
+    {"name":"Redmi","price":400,"qnty":400},
+    {"name":"Iphon 13 pro max","price":2000,"qnty":10 },
+  ];
   DataBase._() {
     //your code hear........
     // غالبا يكون الكود هنا استدعاء لجميع الدوال التي يتم تنفيذها لمرة واحدة فقط
@@ -20,4 +28,5 @@ class DataBase{
     //your code hear........
 
   }
+  
 }
