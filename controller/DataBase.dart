@@ -1,3 +1,5 @@
+import '../product.dart';
+
 class DataBase{
   DataBase._() {
     //your code hear........
@@ -20,4 +22,12 @@ class DataBase{
     //your code hear........
 
   }
+  List <Map<String , dynamic>> getData(String tablename){
+    if (tablename == "Products")
+    return Products ;
+    else
+    return [] ;
+    }
+
+  
 }
