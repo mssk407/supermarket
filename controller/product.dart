@@ -1,7 +1,7 @@
-import '../../product.dart';
+// import '../../product.dart';
 
-class ProductController{
-late Product product;
-late ProductsView 
+// class ProductController{
+// late Product product;
+// late ProductsView 
 
-}
+// }
